@@ -1,0 +1,337 @@
+html {
+    font-size: 22px;
+}
+
+
+ 
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    box-shadow: 0 -1px 5px rgb(255, 255, 255); /* Optional: Add shadow for visual separation */
+    
+    background: linear-gradient(to bottom, #000000, #3a3939);
+    color: white;
+    
+}
+/* Style the header */
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 800px;
+    margin-left: -2.5%;
+    height: 10%;
+    margin-bottom: -0%;
+}   
+header h1{
+    background-color: #000000;
+    height: 10vh;
+  
+ 
+}
+.head_image{
+    position: relative;
+
+
+}
+
+
+/* Style the main heading */
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+   
+}
+
+/* Style the nav bar */
+nav {
+    background-color: #131212;
+    width: 105.5%;
+    margin-left: -3%;
+    margin-right: 40%;
+   
+    
+   
+}
+
+/* Style the unordered list */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the list items */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Style the anchor tags */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+/* Add a hover effect */
+nav ul li a:hover {
+    background-color: #3b3b3b;
+    border-radius: 4px;
+}
+
+/* Style the figure and image */
+figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    color: #666;
+    font-style: italic;
+}
+
+th, td, caption {
+    border: 1px solid #fffefe;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+#menu {
+    text-align: center;
+}
+#menu table{
+
+    text-align: center;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;       
+    font-size: 14px;
+    z-index: 1000; /* Ensure it is above other content */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for visual separation */
+  font-family: "Noto Sans", sans-serif;;
+
+    width: 60%;
+    z-index: 1000;
+    height: 3.75%
+}
+
+
+
+.back a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for background and border */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 2px solid white; /* White border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Optional: Change the border color on hover */
+.back a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly change background color on hover */
+    border-color: white; /* Maintain white border on hover */
+}
+
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: separate; /* Allows for distinct borders around cells */
+    border-spacing: 0; /* Ensures no spacing between cells */
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-align: left; /* Align text to the left for readability */
+    border: 2px solid white; /* White border around the entire table */
+    border-radius: 10px; /* Rounds the corners of the table */
+   
+    background-color: #333; /* Dark background for the table */
+}
+
+/* Styling for table headers */
+thead th {
+    background-color: #333; /* Dark background color for headers */
+    color: white; /* White text color for contrast */
+    padding: 10px; /* Adds padding to header cells */
+    border-bottom: 3px solid white; /* White bottom border */
+    border-right: 2px solid white; /* White border between header cells */
+}
+
+thead th:last-child {
+    border-right: none; /* Remove right border for the last header cell */
+}
+
+/* Styling for table rows */
+tbody tr {
+    border-bottom: 2px solid white; /* White border between rows */
+}
+
+tbody tr:last-child {
+    border-bottom: none; /* Remove bottom border for the last row */
+}
+
+/* Styling for table cells */
+td, th {
+    padding: 10px; /* Adds padding to all cells */
+    border-right: 2px solid white; /* White border between columns */
+    border-left: 2px solid white;  /* White border on the left of each cell */
+}
+
+td:first-child, th:first-child {
+    border-left: none; /* Remove left border for the first column */
+}
+
+td:last-child, th:last-child {
+    border-right: none; /* Remove right border for the last column */
+}
+
+/* Styling for the footer row */
+tfoot td {
+    background-color: #333; /* Same background color as headers */
+    color: white; /* White text color for contrast */
+    padding: 10px; /* Padding for footer cells */
+    text-align: center; /* Center align text in the footer */
+    border-top: 3px solid white; /* White top border */
+}
+
+/* Rounded corners for the table */
+table {
+    border-radius: 10px;
+    overflow: hidden; /* Ensures the rounded corners are visible */
+}
+
+.head_image{
+
+    background-image: url("../img/tacos_and_drink_400x267.png");
+    /* background-color: red; */
+    height: 80vh;
+   
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    width: 105.5%;
+    margin-left: -3%;
+    margin-bottom: -2.8%;
+}
+
+.head_image_contact{
+
+    background-image: url("../img/tacos_close_up_400x260.png");
+    /* background-color: red; */
+    height: 80vh;
+    width: 1200h;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    
+    width: 105.5%;
+    margin-left: -3%;
+    margin-bottom: -2.8%;
+}
+article{
+    font-family: "Playwrite BE WAL", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hours_image{
+
+    background-image: url("../img/tacos_tray_400x267.png");
+    /* backgund-color: red; */
+    height: 80vh;
+    width: 1200h;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    width: 105.5%;
+    margin-left: -3%;
+    margin-bottom: -2.8%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+form button {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 100px;
+    width: 10%;
+}
+
+#message{
+
+    width: 95%;
+}
+
+.buttons {
+
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.contact_info:link{
+
+    color: rgb(255, 255, 255);
+}
+
+.contact_info:visited
+{
+
+    color:  rgb(0, 0, 0);
+
+}
+.contact_info:hover{
+    color: rgb(224, 205, 35);
+}
+
+address{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
